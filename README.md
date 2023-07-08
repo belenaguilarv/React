@@ -1,2 +1,2 @@
 # React
-Práctica del uso de React 
+Ejercicios para aprender el uso de React 
