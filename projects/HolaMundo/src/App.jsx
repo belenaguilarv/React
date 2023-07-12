@@ -3,10 +3,11 @@ import './App.css'
 
 export function App() {
   return (
-  <>
-   <TwitterFollowCard userName="belenaguilarv" name="María Belén Aguilar Velásquez" />
-   <TwitterFollowCard userName="belenaguilarv" name="María Belén Aguilar Velásquez" />
-  </>
+  <section className='App'>
+   <TwitterFollowCard isFollowing={true} userName="pandielpanda" name="Pandiro Panda Panda" />
+   <TwitterFollowCard isFollowing={true}userName="zorrilazorra" name="Zorrila Zorra Zorra" />
+   <TwitterFollowCard isFollowing={false}userName="perrielperro" name="Perrini Perro Perro" />
+  </section>
   );
 }
 

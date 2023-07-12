@@ -1,11 +1,12 @@
 export function TwitterFollowCard({userName, name, isFollowing}) {
+  console.log(isFollowing)
   return (
     <article className='tw-followCard'>
       <header className='tw-followCard-header'>
         <img
           className='tw-followCard-avatar'
           alt="Foto twitter card"
-          src={`../public/images/${userName}.png`}
+          src={`../images/${userName}.png`}
         />
         <div className='tw-followCard-info'>
           <strong>{name}</strong>
