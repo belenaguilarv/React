@@ -1,15 +1,15 @@
-export function TwitterFollowCard({userName, name, isFollowing}) {
+export function TwitterFollowCard({children, userName='unknown' , isFollowing}) {
   console.log(isFollowing)
   return (
     <article className='tw-followCard'>
       <header className='tw-followCard-header'>
         <img
           className='tw-followCard-avatar'
-          alt="Foto twitter card"
+          alt="Foto"
           src={`../images/${userName}.png`}
         />
         <div className='tw-followCard-info'>
-          <strong>{name}</strong>
+          <strong>{children}</strong>
           <span className='tw-followCard-infoUserName'> @{userName}</span>
         </div>
       </header>

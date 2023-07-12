@@ -34,8 +34,8 @@ article img {
   border-radius: 1000px;  
 }
 
-.tw-followCard,
 .tw-followCard-button {
+  cursor: pointer;
   margin-left: 16px;
   border: 0;
   border-radius: 999px;
